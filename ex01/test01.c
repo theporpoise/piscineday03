@@ -15,8 +15,9 @@ int main()
 	int ********pint8;
 	int *********pint9;
 
-
 	n = 21;
+	printf("number is set to %d\n", n);
+
 	pint1 = &n;
 	pint2 = &pint1;
 	pint3 = &pint2;
@@ -27,9 +28,9 @@ int main()
 	pint8 = &pint7;
 	pint9 = &pint8;
 
-
+	printf("number is sent to ft ultimate funciton.\n");
 	ft_ultimate_ft(pint9);
 		
-	printf("n is %d", n);
+	printf("number is now %d\n", n);
 
 }
